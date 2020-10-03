@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Kufam:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+body{
+    font-family: 'Kufam', cursive;
+    background: aliceblue;
+}
+
+
+/*Navigation Section*/
+.navbar{
+    background: #fcbe6e !important;
+}
+.navbar-brand img{
+    width:200px;
+}
+.nav-link{
+    font-weight: 600;
+    color: #020000 !important;
+    transition-duration: 0.3s;
+}
+.nav-link:hover{
+    color: #1fc11f !important;
+}
+/*Navigation Section*/
+
+
+/* About Section */
+.about_sec{}
+.about_sec .container{}
+.about_sec .container .row{}
+.about_sec .container .row .col{}
+.about_sec .container .row .col h6{}
+.about_sec .container .row .col h1{
+    font-weight: 700;
+}
+.about_sec .container .row .col p{
+    letter-spacing: 1px;
+}
+.about_sec .container .row .col a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    text-transform: uppercase;
+    background: #fcbe6e;
+    border: 2px solid #000;
+    padding: 12px 35px;
+    margin: 30px 0px;
+    display: inline-block;
+    transition-duration: 0.3s;
+}
+.about_sec .container .row .col a:hover{background: #d8a35e}
+.about_sec .container .row .col img{
+    width: 450px;
+    margin-top: 60px;
+    margin-left: auto;
+}
+/* About Section */
+
+
+/***Header Section***/
+header{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-blend-mode: soft-light;
+    background: #e1e7ec40;
+    color: #000;
+}
+header .container{
+    width: 1200px;
+    margin: 0px auto;
+}
+header .container .content{
+    padding: 61px 0px;
+}
+header .container .content h1{
+    font-size: 50px;
+    text-align: center;
+}
+header .container .content p{
+    text-align: center;
+    font-size: 17px;
+    margin: 7px 0px;
+    color: #000;
+}
+header .container .content h4{
+    text-align: right;
+}
+/***Header Section***/
+
+
+/***Feature Section***/
+.feature{margin: 79px 0px;}
+.feature .container{
+    width: 1400px;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.feature .container .content{
+    width: 30%;
+    margin: 15px 0px;
+    flex: 0 0 auto;
+    background: #fff;
+    position: relative;
+}
+.feature .container .content:hover{
+    background: linear-gradient(145deg, #e6e6e6, #ffffff);
+    box-shadow:  5px 5px 10px #b0b0b0, 
+             -5px -5px 10px #ffffff;
+    border: none;
+    transition-duration: 0.5s;
+}
+.feature .container .content:hover span{
+    opacity: 1;
+    transition-duration: 0.5s;
+}
+.feature .container .content:hover a{
+    left: 50%;
+    opacity: 1;
+    transition-duration: 0.5s;
+}
+.feature .container .content:hover h2{
+    bottom: 15%;
+    opacity: 1;
+    transition-duration: 0.5s;
+}
+
+.feature .container .content .col{padding: 20px;}
+.feature .container .content .col img{
+    border: 1px solid #00000040;
+    height: 190px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.feature .container .content .col h1{
+    padding: 9px;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+.feature .container .content .col p{
+    padding: 12px 9px;
+    color: #0000007d;
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+.feature .container .content a{
+    text-decoration: none;
+    padding: 13px 37px;
+    border-radius: 4px;
+    text-align: center;
+    background: #fcbe6e;
+    display: inline-block;
+    color: #000;
+    font-weight: 600;
+    position: absolute;
+    top: 50%;
+    left: 17%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+.feature .container .content a:hover{
+}
+.feature .container .content span{
+    position: absolute;
+    background: #000000b8;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    border: 10px solid #fcbe6e;
+    opacity: 0;
+}
+.feature .container .content h2{
+    font-size: 20px;
+    font-weight: 600;
+    color: #fcbe6e;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    opacity: 0;
+    background: #000;
+    padding: 14px 0px;
+    width: 94%;
+    text-align: center;
+}
+/***Feature Section***/
+
+
+/*******************footer_section****************/
+footer{
+    background: #4a5566;
+    padding: 39px 0px;
+    color: #ffffff;
+}
+footer .container{
+    width: 1108px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+footer .container .content_1{
+    width: 50%;
+}
+footer .container .content_1 .copyright{
+    width: 340px;
+    margin: 0 auto;
+}
+footer .container .content_1 .copyright p{
+    color: #ffffff8f;
+    text-align: right;
+    font-size: 18px;
+}
+footer .container .content_1 .copyright h3{
+    text-transform: capitalize;
+    color: #ffffff8f;
+    text-align: right;
+    font-weight: normal;
+    font-size: 17px;
+}
+footer .container .content_2{
+    border-left: 2px solid #ffffff8f;
+    width: 50%;
+}
+footer .container .content_2 .social{
+    width: 304px;
+    margin: 0 auto;
+}
+footer .container .content_2 .social h2{
+    text-transform: capitalize;
+    margin-bottom: 12px;
+    color: #ffffff8f;
+    font-size: 20px;
+}
+footer .container .content_2 .social ul{
+}
+footer .container .content_2 .social ul li{
+    list-style: none;
+    padding: 4px;
+    margin-left: 38px;
+}
+footer .container .content_2 .social ul li a{
+    color: #ffffff8f;
+    text-decoration: none;
+}
+footer .container .content_2 .social ul li a:hover{
+    color: white;
+}
+footer span{
+    font-weight: 700;
+    color: #ffffffcf;
+}
+/*******************footer_section****************/
+
+.fixed_social{
+    display: inline-block;
+    position: fixed;
+    transform: translateY(50%);
+    bottom: 50%;
+    margin-left: 15px;
+    background: #f0f8ff;
+}
+.fixed_social li{
+    list-style: none;
+    margin: -6px 0px;
+}
+.fixed_social li a{
+    font-size: 40px;
+    color: #405169;
+}
+.fixed_social li a:hover i{
+    background: #405169
+    color: #ffffff;
+}
+.fixed_social li a i{
+    border: 1px solid black;
+    padding: 2px;
+}
