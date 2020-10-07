@@ -60,7 +60,10 @@ body{
     display: inline-block;
     transition-duration: 0.3s;
 }
-.about_sec .container .row .col a:hover{background: #d8a35e}
+.about_sec .container .row .col a:hover{
+    background: #000;
+    color: #fff;
+}
 .about_sec .container .row .col img{
     width: 450px;
     margin-top: 60px;
